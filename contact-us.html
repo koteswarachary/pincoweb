@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+  
+    
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img  src="Project images\1.png" alt="">
+          </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <script>
+        var student= confirm("are you student?")
+
+if(student){
+    let name = prompt("please enter your name");
+    document.write(" Hello "+ name + " welcome to pinco ")
+}else{
+    let name = prompt("Please enter you name");
+    document.write(" Hello Sir "+ name + " welcome to pinco ")
+}
+    </script>
+    <h1 class="contacts">Welcome to Pinco</h1>
+    <div class="contact">
+        <h2>GET IN TOUCH</h2>
+    
+        <form onsubmit="return submitForm()">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>    
+
+
+    <div class="contactdetails">
+        <p>   Contact us at - +916300171573</p>
+        <p>   Contact us at - developer@pinco.in</p>
+        <p>   For more info <a href="https://pinco.in/">Click here</a></p>
+    </div>
+    <div class="divcontainer"> 
+        <div class="divcon">
+          <h1> Pinco </h1>
+          <p>Experiencing a Mock Interview is always a wise practice before a Real Interview</p>
+         
+        </div>
+        <div class="divcon1">
+          <h2> Company</h2>
+          <p> About </p>
+          <p> Blog </p>
+          <p> Sales </p>
+          <p>Contact us</p>
+          <p> Refund policy</p>
+          <p> Return Policy </p>
+        </div>
+        <div class="divcon2">
+          <h2> Usefull Links</h2>
+          <p> Terms of Services</p>
+          <p> Privacy Policy</p>
+        </div>
+        <div class="divcon3">
+          <h2> New Letter </h2>
+          <p> Sign up and receive the latest tips via email.</p>
+          <input type="email" name="email" placeholder="Enter your email">
+          <button> Subscribe</button>
+        </div>
+      </div>
+
+    <footer class="footercontact">
+        <p>&copy; 2025 Our Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

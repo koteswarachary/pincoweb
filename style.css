@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'DM Serif Display", serif;
+}
+
+.icon{
+    size: 0px;
+}
+
+
+#containers {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    background-color: #023f80;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+img:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.heading {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+
+.banner-heading{
+    color: white;
+    font-size: 20px;
+    width: 450px;
+
+}
+
+.banner-heading>p{
+    width: 450px;
+}
+
+.right{
+    font-family: "DM Sans",serif;
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    gap: 34px;
+    justify-content: center;
+}
+
+.right>h1 {
+    color: 023f80;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: -30px;
+}
+
+.right> p{
+    color: #747577;
+    font-size: 13px;
+
+}
+
+Signupform{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.social-button{
+    display: flex;
+    gap: 14px;
+}
+
+.btn{
+    width: 224px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #023f80;
+    color: #023f80;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    color: #fff;
+    background-color: #023f80;
+
+}
+
+#Signupform > label{
+    color: #001d3c ;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+#Signupform > input{
+    width: calc(100% - 50px);
+    padding: 16px;
+    border: none;
+    outline: 1px solid #d0d3db;
+    border-radius: 10px;
+}
+
+#Signupform > button{
+    background-color: #023f80;
+    color: #fff;
+    width:calc(100%-50%px);
+    margin: 18px 0;;
+}
+
+#Signupform > button:hover{
+    color: #023f80;
+    background-color: #fff;
+}
+
+
+
+a{
+    color:#023f80;
+}
